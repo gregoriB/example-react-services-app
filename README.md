@@ -1,3 +1,3 @@
-## Example site for the [https://github.com/gregoriB/react-services](react-services) library
+## Example site for the [react-services](https://github.com/gregoriB/react-services) library
 
-[https://react-services-example-app.netlify.app/](Checkout out live example here)
+[Checkout out live example here](https://react-services-example-app.netlify.app/)
