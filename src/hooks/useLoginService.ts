@@ -1,4 +1,4 @@
-import LoginService from "@/services/LoginService";
+import LoginService from "../services/LoginService";
 import { useService } from "react-services";
 
 export const useLoginService = (property: string) => {

@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "baseUrl": "./",
-        "useDefineForClassicFields": true,
+        "useDefineForClassFields": true,
         "strict": true,
         "esModuleInterop": true,
         "lib": [
@@ -13,7 +13,6 @@
         "forceConsistentCasingInFileNames": true,
         "allowSyntheticDefaultImports": true,
         "jsx": "react-jsx",
-        "outDir": "build/dist",
         "module": "esnext",
         "moduleResolution": "node",
         "target": "es5",
@@ -28,9 +27,6 @@
         "strictNullChecks": true,
         "suppressImplicitAnyIndexErrors": true,
         "noUnusedLocals": true,
-        "experimentalDecorators": true,
-        "paths": {
-                "@/*": ["./src"],
-        }
+        "experimentalDecorators": true
     }
 }

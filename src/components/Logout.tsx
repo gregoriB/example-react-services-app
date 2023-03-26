@@ -1,4 +1,4 @@
-import { useLoginService } from "@/hooks/useLoginService";
+import { useLoginService } from "../hooks/useLoginService";
 
 const Logout = () => {
   const logout = useLoginService("logout");

@@ -1,5 +1,5 @@
-import { UseUserService } from "@/hooks/useUserService";
-import { useLoginService } from "@/hooks/useLoginService";
+import { UseUserService } from "../hooks/useUserService";
+import { useLoginService } from "../hooks/useLoginService";
 
 const UserGreeting = () => {
   const username = UseUserService("username$");

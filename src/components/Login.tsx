@@ -1,5 +1,5 @@
 import { ChangeEvent, useState } from "react";
-import { useLoginService } from "@/hooks/useLoginService";
+import { useLoginService } from "../hooks/useLoginService";
 
 const Login = () => {
   const login = useLoginService("login");
