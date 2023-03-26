@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "useDefineForClassicFields": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "skipLibCheck": false,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react-jsx",
+        "outDir": "build/dist",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "es5",
+        "sourceMap": true,
+        "allowJs": false,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true,
+        "experimentalDecorators": true,
+        "paths": {
+                "@/*": ["./src"],
+        }
+    }
+}
